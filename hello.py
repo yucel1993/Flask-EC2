@@ -16,8 +16,8 @@ def product_detail(id):
 
 @app.route("/example")
 def example():
-    name = 'Rafe'
-    age = 18
+    name = 'Brian'
+    age = 30
     return render_template('index.html', name=name, age=age)
 
 if __name__ == '__main__':
